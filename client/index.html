@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regimento SF - Rui IA chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+      html,
+      body {
+        margin: 0;
+      }
+      .banner {
+        background: #009579;
+      }
+      .banner__content {
+        padding: 10px;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- <div class="banner">
+      <div class="banner__content">
+        <div class="banner__text">
+          <strong>RUI - AI chatbot : </strong> posso responder perguntas básicas sobre o funcionamento do Senado Federal...
+        </div>
+      </div>
+    </div> -->
+    <div id="app">
+      <div id="chat_container"></div>
+
+      <form>
+        <textarea name="prompt" rows="1" cols="1" placeholder="Entre sua pergunta..."></textarea>
+        <button type="submit"><img src="assets/send.svg" /></button>
+      </form>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
